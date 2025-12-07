@@ -23,5 +23,8 @@ https://superuser.com/questions/677665/increase-the-speed-at-which-the-delete-ke
 Add vs code to path:
 https://stackoverflow.com/questions/29963617/how-to-call-vs-code-editor-from-terminal-command-line/33831403#33831403
 
+Turn off error noise:
+defaults write -g com.apple.sound.beep.volume -float 0
+
 Make docker work:
 sudo chmod 666 /var/run/docker.sock
