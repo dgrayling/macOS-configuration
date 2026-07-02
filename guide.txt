@@ -28,3 +28,9 @@ defaults write -g com.apple.sound.beep.volume -float 0
 
 Make docker work:
 sudo chmod 666 /var/run/docker.sock
+
+# "Confirm Quit iTerm2"
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
+# "Confirm closing multiple sessions"
+defaults write com.googlecode.iterm2 OnlyWhenMoreTabs -bool false
